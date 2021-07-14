@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Sorting\" />
+    <Folder Include="Counting\" />
+    <Folder Include="Matrix\" />
+    <Folder Include="Geometry\" />
+    <Folder Include="Selection\" />
+    <Folder Include="Graph\" />
+    <Folder Include="Heap\" />
+    <Folder Include="Trees\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Utilities\Utilities.csproj" />
+  </ItemGroup>
+</Project>
